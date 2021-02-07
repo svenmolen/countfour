@@ -1,7 +1,38 @@
+body{
+    background-color: aliceblue;
+}
+
+table{
+    background-color: brown;
+}
+
+#textoutput{
+    padding-left: 2em;
+    padding-top:1em;
+    font-size: 40px
+}
+
+button{
+    background-color: brown;
+    padding: 8px;
+    margin-left: 100px;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+
 .startstyle{
     border: 5px solid brown;
-    border-radius: 5%;
-    width: 60px;
+    border-radius: 50%;
+    width: 50px;
     height:60px;
     margin: 0px;
+    background-color:aliceblue;
 }
+
+    .hidden{
+        visibility: hidden;
+    }
+    .visible{
+        visibility: visible;
+    }
